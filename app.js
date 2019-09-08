@@ -28,7 +28,7 @@ app.post('/contact',urlencodedParser, function(req,res){
 });
 
 app.get('/',function(req,res){
-   res.render('ej');
+   res.render('index');
 });
 
 
